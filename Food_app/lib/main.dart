@@ -8,7 +8,7 @@ c
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   FirebaseApp defaultApp = await Firebase.initializeApp(
-    options: const FirebaseOptions(apiKey: "AIzaSyBosAKCzrCJoLMKNy6Kpkz_RzYNObaCfFA", appId: "1:342129950327:android:6767289f16d1ed84931072", messagingSenderId: "342129950327", projectId: "sharp-cosmos-336806")
+    options: const FirebaseOptions(apiKey: "AIzaSyBosAKCzrCJoLMKNy6Kpkz_RzYNObaCfFA", appId: "", messagingSenderId: "", projectId: "sharp-cosmos-336806")
   );
   runApp(const MyApp());
 }
